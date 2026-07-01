@@ -4,9 +4,12 @@
   "compatibility_date": "2026-06-01",
   "compatibility_flags": ["nodejs_compat"],
 
-"observability": {
-    "enabled": false
-  },
+  "observability": {
+    "logs": {
+      "enabled": false,
+      "invocation_logs": true
+    }
+  }
 
   "assets": {
     "directory": "./dist/client",
