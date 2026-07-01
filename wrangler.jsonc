@@ -1,5 +1,5 @@
 {
-  "name": "lifetalk",
+  "name": "lifetalk-cloudflare",
   "main": "worker/index.ts",
   "compatibility_date": "2026-06-01",
   "compatibility_flags": ["nodejs_compat"],
