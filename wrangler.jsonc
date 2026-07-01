@@ -1,0 +1,25 @@
+{
+  "name": "lifetalk",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-06-01",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "assets": {
+    "directory": "./dist/client",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lifetalk-db",
+      // Replace with the Database ID from `wrangler d1 create lifetalk-db`
+      // or from the D1 page in the Cloudflare dashboard.
+      "database_id": "5267d8e5-cae9-4de2-9a72-348da6b147b0"
+    }
+  ]
+
+  // Secrets (JWT_SECRET, GEMINI_API_KEY) are NOT set here — see deployment
+  // steps. Use `wrangler secret put JWT_SECRET` instead of committing them.
+}

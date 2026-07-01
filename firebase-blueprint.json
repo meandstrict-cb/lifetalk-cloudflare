@@ -1,0 +1,7 @@
+{
+  "collections": {
+    "choice_stats": {
+      "rules": "allow read, write: if true;"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "LifeTalk English Simulator",
+  "description": "An interactive daily life simulator game designed to build natural English fluency through progressive immersive dialogue, spaced repetition, and real-time feedback.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
